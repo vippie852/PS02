@@ -1,6 +1,6 @@
 ---
 title: "STAT/MATH 495: Problem Set 02"
-author: "WRITE YOUR NAME HERE"
+author: "WRITE YOUR NAMES HERE"
 date: "2017-09-19"
 output:
   html_document:
@@ -16,6 +16,30 @@ knitr::opts_chunk$set(echo = TRUE, fig.width=8, fig.height=4.5)
 
 # Load packages
 library(tidyverse)
+
+# Note the relative file path, and not absolute file path:
+# http://www.coffeecup.com/help/articles/absolute-vs-relative-pathslinks/
+train <- read_csv("data/train.csv")
 ```
 
+
+# Exploratory Data Analysis
+
+```{r}
+
+```
+
+
+# Model Fit
+
+```{r}
+
+```
+
+
+# Create Submission File
+
+```{r}
+
+```
 
